@@ -1,4 +1,4 @@
-# better_player_example
+# example
 
 Demonstrates how to use the better_player plugin.
 
