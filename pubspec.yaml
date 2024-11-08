@@ -1,0 +1,48 @@
+name: better_player
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.5.4
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  cupertino_icons: ^1.0.8
+  wakelock_plus: ^1.2.8
+  meta: ^1.15.0
+  flutter_widget_from_html_core: ^0.15.2
+  visibility_detector: ^0.4.0+2
+  path_provider: ^2.1.5
+  collection: ^1.18.0
+  xml: ^6.5.0
+
+dev_dependencies:
+  lint: ^2.3.0
+  flutter_test:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # flutter_test:
+  #   sdk: flutter
+  # flutter_lints: ^4.0.0
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.jhomlala.better_player
+        pluginClass: BetterPlayerPlugin
+      ios:
+        pluginClass: BetterPlayerPlugin
+      linux:
+        pluginClass: BetterPlayerPlugin
+      macos:
+        pluginClass: BetterPlayerPlugin
+      windows:
+        pluginClass: BetterPlayerPluginCApi
+
